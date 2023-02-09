@@ -70,9 +70,9 @@ public class Example {
             элементов равны, то есть [0][0], [1][1], [2][2], …, [n][n];
         */
         var matrix = CreateMatrix(5,5);
-        System.out.println("8: Созданная матрица");
+        System.out.println("9: Созданная матрица");
         PrintMatrix(matrix);
-        System.out.println("8: Заполнение диагоналей");
+        System.out.println("9: Заполнение диагоналей");
         fillingDiagonalsMatrix(matrix, 1);
         PrintMatrix(matrix);
          
