@@ -129,10 +129,13 @@ public class Example {
             int temp = 0;
             for (int i = 0; i < source.length-1; i++) {
                 String a = source[i];
-                a = a.substring(count, count+1);
+               // a = a.substring(count, count+1);
+               char first = a.charAt(count);
                 String b = source[i+1];
-                b = b.substring(count, count+1);
-                if(a.equals(b))
+                //b = b.substring(count, count+1);
+                char second = b.charAt(count);
+                //if(a.equals(b))
+                if(first == second)
                 temp++;
             }
             if(temp == source.length-1) {
