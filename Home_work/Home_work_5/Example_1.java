@@ -4,7 +4,6 @@ import java.util.Deque;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
-import java.util.Stack;
 
 public class Example_1 {
     public static void main(String[] args) {
